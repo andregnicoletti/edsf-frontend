@@ -1,0 +1,46 @@
+.helper-upload-container {
+  width: 32.5rem;
+  flex: 1;
+  flex-direction: column;
+  row-gap: $spacing-8;
+  padding: $spacing-12;
+  align-items: flex-start;
+}
+
+.helper-upload-content {
+  flex: 1;
+  flex-direction: column;
+  row-gap: $spacing-12;
+  padding: $spacing-8;
+}
+
+.helper-topic {
+  flex-direction: row;
+  column-gap: $spacing-6;
+}
+
+.helper-upload-title {
+  color: $neutral-800;
+}
+
+.helper-upload-close-button {
+  align-self: flex-end;
+}
+
+.helper-upload-topic-text {
+  color: $neutral-700;
+  flex: 1;
+}
+
+.helper-upload-topic-number {
+  color: $support-800;
+}
+
+.helper-upload-topic-number-container {
+  width: $spacing-16;
+  height: $spacing-16;
+  border-radius: 50%;
+  background-color: $support-50;
+  align-items: center;
+  justify-content: center;
+}

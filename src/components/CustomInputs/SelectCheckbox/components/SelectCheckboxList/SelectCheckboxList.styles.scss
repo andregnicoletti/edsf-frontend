@@ -1,0 +1,10 @@
+@import "@cpqd-quati/tokens/core/scss/_tokens.scss";
+@import "@cpqd-quati/tokens/core/palettes/beija-flor.scss";
+
+.empty-checkbox-select-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: $spacing-13;
+}

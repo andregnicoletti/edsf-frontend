@@ -1,0 +1,19 @@
+.checkbox {
+  background: url("/checkbox-unchecked.svg");
+  background-color: transparent;
+  background-size: cover;
+  border: none;
+  width: 1rem;
+  height: 1rem;
+  min-width: 1rem;
+}
+
+.checked {
+  background: url("/checkbox-checked.svg");
+  background-size: cover;
+}
+
+.size-bigger {
+  width: 1.1875rem;
+  height: 1.1875rem;
+}

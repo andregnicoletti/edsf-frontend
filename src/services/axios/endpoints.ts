@@ -1,0 +1,31 @@
+export const API_ROUTES = {
+  LEADS: "/leads",
+  SEND_CODE: "/send-code",
+  LOGIN: "/login",
+  TERMS: "/static-terms",
+};
+
+export const API_ROUTES_PROTECTED = {
+  DOWNLOAD_CSV: "/download/csv",
+  DOWNLOAD_UPLOADED_CSV: "/download/csv",
+  UPLOAD: "/upload",
+  UPLOAD_DETAIL: "/upload/detail",
+  UPLOAD_CODES: "/upload/codes",
+  DASHBOARD_DETAILED_EXTRACT: "/dashboard/detailed",
+  DASHBOARD_SUMMARY_EXTRACT: "/dashboard/summary",
+  CITY: "/city/",
+  COURSE: "/course",
+  HELP_INFO: "/static-info",
+  INDICATOR: "/indicator",
+  PANEL_PREVIEW: "/panels/edit",
+  YEARS_DATA: "panels/years-data",
+  SAVE_NEW_PANEL: "/panels",
+  PANELS_LIST: "/panels",
+  PANEL_BY_ID: "/panels/execute",
+  DASHBOARD_STACKED_COLUMN_CHART: "/dashboard/stacked-column-chart",
+  DASHBOARD_LINES_CHART: "/dashboard/line-chart",
+  INDICATORS: "/indicator",
+  PRODUCER_BY_CITIES_ID: "/producer/find-by-cities-id",
+  USER_TERMS: "/user/terms",
+  VERIFY_TOKEN: "/verify",
+};

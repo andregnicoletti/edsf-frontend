@@ -1,0 +1,13 @@
+.date-picker-month-year-floating-data-menu {
+  display: flex;
+  flex-direction: column;
+  padding: $spacing-8;
+  border-radius: $spacing-4;
+  row-gap: $spacing-8;
+}
+
+.date-picker-month-year-floating-data-buttons {
+  display: flex;
+  flex-direction: row;
+  column-gap: $spacing-5;
+}

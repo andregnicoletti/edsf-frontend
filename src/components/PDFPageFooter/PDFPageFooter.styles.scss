@@ -1,0 +1,41 @@
+.pdf-page-footer-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-bottom: $spacing-22;
+  padding-top: $spacing-10;
+  background-color: $neutral-100;
+  padding-left: 2.2rem;
+  padding-right: 2.2rem;
+}
+
+.pdf-page-footer-content {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  &:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: $spacing-12;
+    background-color: rgb(26, 139, 26);
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}
+
+.pdf-page-footer-logomarcas {
+  display: flex;
+  flex-direction: row;
+  column-gap: 0.5rem;
+}
+
+.pdf-page-logo {
+  height: 1.8rem;
+}

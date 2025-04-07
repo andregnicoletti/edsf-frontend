@@ -1,0 +1,31 @@
+.homecard-container {
+  display: flex;
+  flex-direction: column;
+  width: 24rem;
+  height: 12rem;
+  row-gap: $spacing-4;
+  padding: $spacing-12;
+  background-color: $neutral-50;
+  border-width: 1px;
+  border-color: $neutral-200;
+  border-radius: $border-radius-sm;
+}
+
+.homecard-short-container {
+  height: fit-content;
+}
+
+.homecard-title-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  column-gap: $spacing-6;
+}
+
+.homecard-button-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex: 1;
+}

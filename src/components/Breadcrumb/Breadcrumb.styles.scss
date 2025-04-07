@@ -1,0 +1,12 @@
+.breadcrumb-current-path {
+  color: $support-700;
+}
+
+.breadcrumb-link-path {
+  color: $neutral-700;
+}
+
+.breadcrumb-link-path:hover {
+  text-decoration: underline;
+  color: $primary-700;
+}

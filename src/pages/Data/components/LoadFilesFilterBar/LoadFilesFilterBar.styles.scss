@@ -1,0 +1,11 @@
+.load-history-filters-container {
+  flex-direction: row;
+  column-gap: $spacing-8;
+  align-items: center;
+}
+
+.load-history-floating-data-buttons {
+  display: flex;
+  flex-direction: row;
+  column-gap: $spacing-5;
+}

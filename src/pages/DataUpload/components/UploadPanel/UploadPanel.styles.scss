@@ -1,0 +1,13 @@
+.panel-content {
+  flex: 1;
+  flex-direction: column;
+  row-gap: $spacing-8;
+}
+.panel-title-row {
+  column-gap: $spacing-4;
+  align-items: center;
+}
+
+.panel-title {
+  color: $neutral-700;
+}

@@ -1,0 +1,9 @@
+.select-multiple-values-container {
+  display: flex;
+  flex-direction: row;
+  column-gap: $spacing-4;
+}
+
+.select-simple-float-container {
+  max-height: 12rem;
+}

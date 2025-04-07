@@ -1,0 +1,28 @@
+.export-dashboard-drawer-container {
+  display: flex;
+  flex-direction: column;
+  background-color: $neutral-50;
+  width: 30rem;
+  height: 100%;
+  padding: $spacing-12;
+}
+
+.export-dashboard-badge {
+  margin-top: $spacing-8;
+  margin-bottom: $spacing-4;
+}
+
+.export-dashboard-content {
+  display: flex;
+  flex-direction: column;
+  row-gap: $spacing-4;
+}
+
+.export-dashboard-buttons-container {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  column-gap: $spacing-4;
+}

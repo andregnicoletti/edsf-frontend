@@ -1,0 +1,58 @@
+.custom-select {
+  position: relative;
+  width: 100%;
+  cursor: pointer;
+}
+
+.select-header {
+  background: url("/arrow-down.svg") no-repeat 100% 50%;
+  background-position: right 0.75rem top 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.select-header.open {
+  background: url("/arrow-up.svg") no-repeat 100% 50%;
+  background-position: right 0.75rem top 50%;
+  background-size: 1rem;
+}
+
+.select-options {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: var(--border-default);
+  border-radius: var(--border-radius-200);
+  overflow-y: auto;
+  background-color: var(--white);
+  position: absolute;
+  width: 100%;
+  top: 2.75rem;
+  left: 0;
+  z-index: 10;
+  box-shadow: 0px 0.25rem 0.25rem -0.0625rem rgba(12, 12, 13, 0.1),
+    0px 0.25rem 0.25rem -0.0625rem rgba(12, 12, 13, 0.05);
+}
+
+.select-option {
+  height: 2.875rem;
+  width: 100%;
+  padding-left: 1.5rem;
+  font-weight: 400;
+  font-size: var(--font-size-medium);
+  line-height: 1.4;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: transparent;
+  border: none;
+}
+
+.default-option {
+  color: var(--black-500);
+}
+
+.select-option:hover {
+  background-color: var(--black-200);
+}

@@ -1,0 +1,22 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  border-color: $neutral-200;
+  background-color: $neutral-50;
+  border-radius: $border-radius-sm;
+  border-width: 1px;
+  box-shadow: $elevation-100;
+}
+
+.card-container-gray {
+  display: flex;
+  flex-direction: column;
+  border-color: $neutral-200;
+  background-color: $neutral-200;
+  border-radius: $border-radius-sm;
+  border-width: 1px;
+}
+
+*:focus-visible {
+  outline: none;
+}

@@ -1,0 +1,48 @@
+.extract-detailed {
+  padding-top: 1rem;
+}
+
+.producers-row-cell {
+  flex-direction: row;
+  column-gap: 0.5rem;
+}
+
+.box-card {
+  display: flex;
+  flex-direction: column;
+  border-color: $neutral-200;
+  border-radius: $border-radius-sm;
+  border-width: 1px;
+  padding: $spacing-8;
+  row-gap: $spacing-4;
+}
+
+.table-all-municipality-search {
+  width: 100%;
+  background-color: $neutral-100;
+  padding: $spacing-6;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: $border-radius-sm;
+}
+
+.extract-detailed-charts-container {
+  display: flex;
+  flex: 1;
+  min-height: 30rem;
+  flex-direction: row;
+  column-gap: $spacing-8;
+}
+
+.extract-detailed-charts-container-column {
+  display: flex;
+  flex: 1;
+  min-height: 30rem;
+  flex-direction: column;
+  column-gap: $spacing-8;
+}
+
+.visualization-select-container {
+  width: 15rem;
+}

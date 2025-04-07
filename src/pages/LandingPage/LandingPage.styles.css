@@ -1,0 +1,21 @@
+#landing-page-container {
+  background-color: var(--white);
+  position: relative;
+  overflow: hidden;
+}
+
+.toReveal {
+  opacity: 0;
+  transform: translateY(-30px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.toReveal.revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+#landing-page-container * {
+  font-family: "Montserrat", serif;
+  --border-default: 1px solid var(--blue-200);
+}

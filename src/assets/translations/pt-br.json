@@ -1,0 +1,351 @@
+{
+  "General": {
+    "findOutMore": "SAIBA MAIS",
+    "send": "ENVIAR",
+    "close": "Fechar",
+    "confirmButton": "Confirmar",
+    "emptySelect": "Nenhum",
+    "allSelect": "Todos",
+    "emptyTableMessage": "Nenhum resultado encontrado",
+    "emptyChartMessage": "Nenhum resultado encontrado",
+    "export": "Exportar",
+    "cleanFilters": "Limpar filtros",
+    "copyFilters": "Copiar filtros",
+    "pasteFilters": "Colar filtros compatíveis",
+    "snackbarGenericError": "Ocorreu um erro",
+    "understood": "Entendi",
+    "generatingReport": "Gerando relatório"
+  },
+  "ProducersTab": {
+    "emptyMessagePeriod": "Período {{periodo}}. Os produtores são exibidos conforme o período e municípios selecionados.",
+    "emptyMessage": "Nenhum município com produtores adicionado, para filtrar por produtores adicione municípios com produtores para poder selecionar seus produtores."
+  },
+  "PrivacyTerms": {
+    "agree": "Concordo com os termos de uso e privacidade.",
+    "disagree": "Não concordo.",
+    "confirm": "Confirmar",
+    "update": "Atualizar",
+    "close": "Fechar"
+  },
+  "SideMenu": {
+    "hideMenu": "Esconder menu",
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "processing": "Processamento"
+  },
+  "TopMenu": {
+    "title": "Education Data Science on the Farm"
+  },
+  "UserMenu": {
+    "consentTermPrivacyPolicy": "Termos de uso e privacidade",
+    "logout": "Sair"
+  },
+  "PDFHeader": {
+    "dataReport": "Relatório de dados"
+  },
+  "PDFAppliedFilters": {
+    "title": "Filtros aplicados",
+    "indicator": "Indicador",
+    "course": "Curso",
+    "uf": "UF",
+    "period": "Período",
+    "city": "Município",
+    "producers": "Produtores",
+    "visualization": "Visualização",
+    "dataSelection": "Seleção de dados",
+    "comparison": "Comparação",
+    "bestResults": "Produtores com melhor resultado",
+    "worstResults": "Produtores com pior resultado"
+  },
+  "SelectCheckbox": {
+    "searchPlaceholder": "Pesquisar",
+    "singleSelectedBadge": "Selecionado",
+    "multipleSelectedBadge": "Selecionados",
+    "noItemsSelectedBadge": "Nenhum selecionado",
+    "noItemsSelectedMessage": "Nenhum resultado encontrado",
+    "cancelButton": "Cancelar",
+    "confirmButton": "Aplicar"
+  },
+  "InputDateFromTo": {
+    "from": "A partir de",
+    "to": "Até",
+    "cancelButton": "Cancelar",
+    "confirmButton": "Aplicar",
+    "invalidDate": "Data inválida",
+    "datesWithDifferentYears": "As datas devem ter o mesmo ano."
+  },
+  "LandingPage": {
+    "firstSection": {
+      "menuTitle": "EDSF | Education Data Science on the Farm",
+      "menuSolutions": "SOLUÇÕES",
+      "menuContactUs": "FALE CONOSCO",
+      "menuLogin": "LOGIN",
+      "pageTitle": "REVOLUCIONANDO A EDUCAÇÃO NAS FAZENDAS COM CIÊNCIA DE DADOS",
+      "pageSubtitle": "Transforme a eficiência, sustentabilidade e produtividade de fazendas por meio de dados educacionais precisos com o <strong>Education Data Science on the Farm</strong>",
+      "aPartnership": "UMA PARCERIA"
+    },
+    "dataSection": {
+      "seeMoreData": "VER MAIS DADOS",
+      "firstItem": "<strong>77% das fazendas no Brasil são de Agropecuaristas Familiares.</strong> 87,6% deles não concluíram o Ensino Médio. Apenas 51% concluíram o Ensino Fundamental.",
+      "secondItem": "<strong>Treinamentos para integração de monitoramento digital e automação permitem uma economia de 18% no uso de insumos, combatendo o desperdício.</strong>",
+      "thirdItem": "<strong>Apenas 18,2% dos Agricultores Familiares recebem assistência técnica.<strong/>",
+      "fourthItem": "<strong>Apenas 23,7% das fazendas são de Agropecuária Patronal. Porém, ocupam 76% de toda a terra utilizada para o AGRO e geram 68,35% das oportunidades de trabalho (não familiares) em fazendas.</strong><br/><br/>Esses trabalhadores impactam 270 milhões de hectares e 57,52% deles não possuem Ensino Fundamental.",
+      "fifthItem": "<strong>Propriedades que adotam sistemas de controle inteligentes reduzem o consumo de água e reduzem o desperdício em até 30%.</strong>",
+      "sixthItem": "<strong>A educação no campo impacta diretamente a produtividade</strong>: trabalhadores capacitados podem aumentar a produção em até 30%."
+    },
+    "solutionsSection": {
+      "sectionTitle": "NÓS TEMOS A SOLUÇÃO PARA O SEU NEGÓCIO",
+      "firstItemTitle": "Fornecedores de Insumos",
+      "firstItemText": "Monitore o impacto de treinamentos específicos e ajude a fazenda a ter o melhor resultado com o uso dos seus produtos.",
+      "secondItemTitle": "Tradings",
+      "secondItemText": "Monitore o impacto de treinamentos específicos e ajude a fazenda a atingir indicadores de qualidade e rastreabilidade.",
+      "thirdItemTitle": "Instituições Financeiras e Seguradoras",
+      "thirdItemText": "Avalie riscos e ofereça incentivos baseados em dados educacionais.",
+      "fourthItemTitle": "Tecnologia Agrícola",
+      "fourthItemText": "Integre dados educacionais para otimizar o uso de tecnologias.",
+      "fifthItemTitle": "Organizações Governamentais e ONGs",
+      "fifthItemText": "Desenvolva políticas públicas e programas de capacitação eficazes.",
+      "sixthItemTitle": "Alimentos e Bebidas",
+      "sixthItemText": "Monitore o impacto de treinamentos específicos e ajude as fazendas da sua cadeia produtiva a atingir indicadores de qualidade e sustentabilidade."
+    },
+    "contactUs": {
+      "submit": {
+        "successTitle": "Mensagem enviada",
+        "successMessage": "Recebemos seus dados e faremos contato em breve!",
+        "errorTitle": "Mensagem não enviada",
+        "errorMessage": "Não foi possível estabelecer conexão com o servidor. Verifique sua internet e tente novamente!"
+      },
+      "validation": {
+        "errorRequired": "Campo obrigatório",
+        "errorEmailPhoneTitle": "Não foi possível enviar sua mensagem",
+        "errorEmailPhoneMessage": "Insira um e-mail ou telefone válido."
+      },
+      "sectionTitle": "FALE CONOSCO",
+      "nameLabel": "Nome",
+      "namePlaceholder": "Seu nome",
+      "enterpriseLabel": "Empresa",
+      "enterprisePlaceholder": "Nome da sua empresa",
+      "phoneLabel": "Telefone",
+      "phonePlaceholder": "Preferencialmente WhatsApp",
+      "emailLabel": "E-mail",
+      "emailPlaceholder": "E-mail para contato",
+      "knowingAboutUs": "Como ficou sabendo de nós? (opcional)",
+      "knowingAboutUsDefaultOption": "Selecione",
+      "messageLabel": "Mensagem",
+      "messagePlaceholder": "Escreva sua mensagem aqui...",
+      "agreeWith": "Concordo com a",
+      "privacyPolicy": "Política de privacidade"
+    },
+    "footer": {
+      "partners": "PARCEIROS ESTRATÉGICOS:",
+      "copyright": "Copyright © 2024 | EDSF | Todos os direitos reservados."
+    }
+  },
+  "Login": {
+    "receiveAccessCode": "Receber código de acesso",
+    "typeAccessCode": "Digite o código enviado para seu e-mail",
+    "emailLabel": "E-mail",
+    "emailPlaceholder": "exemplo@email.com.br",
+    "sendCodeButton": "Enviar código",
+    "accessCodeLabel": "Código de acesso",
+    "accessCodePlaceholder": "Código de 6 dígitos",
+    "confirmButton": "Confirmar",
+    "emailInvalid": "Login inválido",
+    "codeInvalid": "Código inválido ou expirado"
+  },
+  "Dashboard": {
+    "pageTitle": "Dashboard",
+    "addPanel": "Adicionar painel",
+    "exportData": {
+      "title": "Exportar",
+      "titleBadge": "Faça a exportação em PDF dos painéis do Dashboard",
+      "contentTitle": "Conteúdo",
+      "allPanels": "Todos os painéis",
+      "citiesData": "Dados dos municípios"
+    },
+    "summaryExtract": {
+      "pageTitle": "Extrato resumido",
+      "classesAverageDurationOf": "{{classes}} aulas com duração média de <strong>{{minutes}} minutos</strong>",
+      "classesAverageDurationOfSingular": "{{classes}} aula com duração média de <strong>{{minutes}} minutos</strong>",
+      "targetProducers": "Produtores alvo",
+      "targetProducersSingular": "Produtor alvo",
+      "producersReachedTarget": "Produtores que atingiram a meta",
+      "producersReachedTargetSingular": "Produtor que atingiu a meta",
+      "trainingAvailableHour": "Cursos disponíveis<br/>Duração total: <strong>{{hour}} horas</strong>",
+      "trainingAvailableHourSingular": "Curso disponível<br/>Duração total: <strong>{{hour}} horas</strong>",
+      "certifiedPersons": "Pessoas certificadas",
+      "certifiedPersonsSingular": "Pessoa certificada",
+      "peopleInTraining": "Pessoas em treinamento",
+      "peopleInTrainingSingular": "Pessoa em treinamento",
+      "registeredPeople": "Pessoas inscritas",
+      "registeredPeopleSingular": "Pessoa inscrita",
+      "indicators": {
+        "title": "Indicadores",
+        "badge": "Geral"
+      },
+      "coursesMostRegistrations": {
+        "title": "Curso com mais inscrições",
+        "badge": "Ingestão de dados de plantio"
+      },
+      "coursesFewerRegistrations": {
+        "title": "Curso com menos inscrições",
+        "badge": "Ingestão de dados de colheita"
+      }
+    },
+    "excludeEditPanel": {
+      "titleExcludeDialogue": "Excluir painel",
+      "contentExcludeDialogue": "Confirma a exclusão do painel {{panelName}}?",
+      "editPanelButton": "Editar painel",
+      "deletePanelButton": "Excluir painel",
+      "cancel": "Cancelar",
+      "delete": "Excluir"
+    },
+    "detailedExtract": {
+      "panelTitle": "Extrato detalhado",
+      "municipalitiesData": "Dados dos municípios",
+      "filterCourseLabel": "Curso",
+      "filterIndicatorLabel": "Indicador",
+      "filterUFLabel": "UF",
+      "filterMunicipalityLabel": "Município",
+      "filterProduceresLabel": "Produtores",
+      "tableHeadMunicipality": "Município/UF",
+      "tableHeadRegistered": "Pessoas inscritas/Período",
+      "tableHeadCertified": "Pessoas certificadas/Período",
+      "tableHeadNumberProducers": "Total de produtores",
+      "tableHeadProducersTargetAchieved": "Produtores meta atingida",
+      "producersSideMenuTitle": "Produtores",
+      "producersSideMenuAplly": "Aplicar",
+      "producersSideMenuCancelar": "Cancelar",
+      "multipleProducersSelected": "Produtores selecionados",
+      "cityName": "Nome Município",
+      "singleProducerSelected": "Produtor selecionado",
+      "multipleIndicatorsSelected": "Indicadores selecionados",
+      "multipleCoursesSelected": "Cursos selecionados",
+      "multipleUFsSelected": "UFs selecionadas",
+      "multipleCitiessSelected": "Municípios selecionados",
+      "maxCitiesSelectedBadge": "Seleção máxima de 10 municípios",
+      "certifiedByCourse": "Certificados por curso",
+      "certifiedByMonth": "Certificados por mês",
+      "chartInscriptionsLabel": "Inscrições",
+      "chartsVisualizationFilterLabel": "Visualização"
+    },
+    "AddPanel": {
+      "pageTitle": "Adicionar painel",
+      "selectPanelType": "Selecione o tipo do painel",
+      "panelChartColumns": "Gráfico de colunas",
+      "table": "Tabela"
+    },
+    "ConfigurePanel": {
+      "pageTitle": "Configure o painel",
+      "errorOnSavePanel": "Não foi possível salvar o painel. Ajuste os filtros e configurações e tente novamente.",
+      "configPanelCancelButton": "Cancelar",
+      "configPanelSaveButton": "Salvar",
+      "emptyPanelChartTitle": "Não conseguimos exibir o gráfico",
+      "emptyPanelTableTitle": "Não conseguimos exibir a tabela",
+      "emptyPanelSubtitle": "Informe os dados do painel e os filtros",
+      "configPanelTitle": "Painel",
+      "configNameLabel": "Nome",
+      "configNamePlaceholder": "Insira um nome para o painel",
+      "configIndicatorLabel": "Indicador",
+      "configCriterionLabel": "Critério",
+      "configDataSelectLabel": "Seleção de dados",
+      "configShowGoalLabel": "Exibir meta",
+      "filtersPanelTitle": "Filtros",
+      "maxProducers": "Seleção máxima de {{quant}} produtores",
+      "maxProducersSnackbar": "Só é permitido a seleção de até {{quant}} produtores.",
+      "selected": "{{quant}} selecionados",
+      "selectedSingle": "{{quant}} selecionado",
+      "cleanSelection": "Limpar seleção",
+      "criterion": {
+        "performance": "Desempenho (Ano corrente)",
+        "comparison": "Histórico (Comparação entre dois anos)"
+      },
+      "dataSelection": {
+        "bestResults": "Produtores com melhor resultado",
+        "worstResults": "Produtores com pior resultado"
+      },
+      "attributes": {
+        "title": "Atributos",
+        "producerTable": "Nome produtor",
+        "producerAttribute": "Nome do produtor",
+        "cityTable": "Municipio/UF",
+        "cityAttribute": "Município/UF do produtor",
+        "indicatorTable": "Indicador",
+        "indicatorAttribute": "Nome do indicador",
+        "yearTable": "Ano da meta",
+        "yearAttribute": "Ano da meta do indicador",
+        "goalTable": "Meta",
+        "goalAttribute": "Meta do indicador",
+        "indicatorRealizedTable": "% realizado do indicador",
+        "indicatorRealizedAttribute": "% realizado do indicador"
+      },
+      "confirmCleanInput": {
+        "title": "Atenção",
+        "message": "A seleção de produtores feita será atualizada devido à alteração da configuração de Indicador, Critério ou Seleção de dados. Deseja continuar?",
+        "cancelButton": "Cancelar",
+        "confirmButton": "Alterar"
+      }
+    },
+    "dateFilter": {
+      "filterDateLabel": "Data",
+      "filterPeriodLabel": "Período"
+    }
+  },
+  "Data": {
+    "processing": "Processamento",
+    "UploadHelp": {
+      "title": "Ajuda"
+    },
+    "Data": {
+      "pageTitle": "Histórico de cargas",
+      "alertErrorOnLasLoad": "<strong>Atenção</strong>: Existem erros na última carga de dados. O dashboard exibirá apenas os dados carregados com sucesso.",
+      "processingOfLastLoad": "Último processamento",
+      "loadHistory": "Histórico de processamento",
+      "loadHistoryTip": "<strong>Dica:</strong> Os erros anteriores que não foram tratados na última carga serão desconsiderados.",
+      "inputFile": "Arquivo de entrada",
+      "type": "Tipo",
+      "processingDate": "Data de processamento",
+      "totalRecords": "Total registros",
+      "success": "Sucesso",
+      "error": "Erro",
+      "errorFile": "Arquivo de erro",
+      "searchFile": "Pesquisar arquivo",
+      "newLoad": "Nova carga",
+      "reviewErrors": "Revisar erros",
+      "newLoadAlertBadge": "<strong>Atenção:</strong> Existem erros na última carga de dados.",
+      "newLoadAlertTitle": "Realizar nova carga?",
+      "newLoadAlertText": "Consulte o arquivo de erro para ver mais detalhes do processamento. <strong>Dica:</strong> Corrija os dados com erro e inclua-os na próxima carga."
+    },
+    "UploadData": {
+      "uploadData": "Upload de dados",
+      "step1": "Passo 1",
+      "step1Title": "Faça o download dos modelos .csv",
+      "downloadTemplates": "Download modelos",
+      "step2": "Passo 2",
+      "step2Title": "Abra os arquivos no seu editor de preferência e preencha com seus dados",
+      "seeSome": "Veja algumas ",
+      "tipsForHandlingCsv": "dicas para manipulação de arquivos csv",
+      "step3": "Passo 3",
+      "step3Title": "Faça o upload dos arquivos preenchidos",
+      "dropTheFilesHere": "Solte os arquivos .csv aqui ou",
+      "browseOnComputer": "Procure no computador",
+      "nextButton": "Avançar",
+      "uploadButton": "Processar",
+      "timeoutError": "Arquivo muito grande. Divida-o em arquivos menores para fazer o upload."
+    }
+  },
+  "Home": {
+    "pageTitle": "Módulos:",
+    "processingCardTitle": "Processamento",
+    "processingCardText": "Faça upload de .csv com os dados que irão alimentar os Dashboards.",
+    "processingCardButton": "Acessar",
+    "dashboardCardTitle": "Dashboard",
+    "dashboardCardText": "Tenha uma visão completa dos dados e indicadores dos municípios e produtores.",
+    "dashboardCardButton": "Acessar",
+    "shortcuts": "Atalhos:",
+    "loadHistoryCardTitle": "Histórico de cargas",
+    "loadHistoryCardButton": "Acessar",
+    "templatesCardTitle": "Modelos CSV",
+    "templatesCardButton": "Download"
+  }
+}

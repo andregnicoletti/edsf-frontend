@@ -1,0 +1,10 @@
+.checkbox-privacy-policy {
+  display: flex;
+  flex-direction: row;
+}
+
+.checkbox-label {
+  all: unset;
+  cursor: pointer;
+  padding-left: 0.5rem;
+}

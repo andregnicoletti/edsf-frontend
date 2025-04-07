@@ -1,0 +1,18 @@
+#dashboard-container {
+  flex: 1;
+}
+
+.dashboard-title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: $spacing-6 0;
+}
+
+.dashboard-title-left-container {
+  display: flex;
+  flex-direction: row;
+  column-gap: $spacing-6;
+  align-items: center;
+}

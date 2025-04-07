@@ -1,0 +1,19 @@
+.attribute-container {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  column-gap: $spacing-4;
+  padding-left: $spacing-4;
+  padding-right: $spacing-4;
+  border-width: 1px;
+  height: $spacing-22;
+  border-color: $neutral-200;
+  border-radius: $border-radius-sm;
+}
+
+.attribute-drag-icon {
+  cursor: grab;
+  width: $spacing-12;
+  height: $spacing-12;
+}

@@ -1,0 +1,60 @@
+.MuiTableHead-root {
+  background-color: $neutral-200;
+}
+
+.MuiTableCell-root {
+  height: $spacing-24 !important;
+  color: $neutral-700;
+  padding: 0 $spacing-8 !important;
+}
+
+.MuiOutlinedInput-root:hover fieldset {
+  border-color: $primary-600 !important;
+}
+
+.MuiOutlinedInput-root fieldset {
+  border-color: $neutral-400 !important;
+}
+
+.Mui-focused fieldset {
+  overflow: hidden;
+  border-color: $primary-800 !important;
+}
+
+.MuiInputLabel-root,
+.MuiInputBase-input {
+  color: $primary-800 !important;
+  font-weight: bold !important;
+
+  &::placeholder {
+    color: $neutral-900 !important;
+    font-weight: 400 !important;
+  }
+}
+
+.Mui-selected {
+  background-color: $primary-100 !important;
+}
+
+//border-radius
+.MuiFormControl-root fieldset {
+  border-radius: $border-radius-sm;
+}
+
+.MuiInputBase-inputTypeSearch ~ fieldset {
+  border-radius: 100vh !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+.divider-horizontal {
+  padding: $spacing-3 0 0 0 !important;
+  margin-bottom: $spacing-3 !important;
+  color: $neutral-300 !important;
+  opacity: 1 !important;
+}

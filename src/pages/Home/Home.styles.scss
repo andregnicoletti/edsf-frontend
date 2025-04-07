@@ -1,0 +1,39 @@
+#page-home {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  row-gap: $spacing-6;
+}
+
+.page-home-cards-section {
+  display: flex;
+  flex-direction: column;
+  row-gap: $spacing-6;
+}
+
+.page-home-cards-container {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  column-gap: $spacing-8;
+}
+
+.page-home-card-modules-icon-container {
+  width: $spacing-18;
+  height: $spacing-18;
+  border-radius: 100vh;
+  background-color: $support-700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-home-card-shortcuts-icon-container {
+  width: $spacing-16;
+  height: $spacing-16;
+  border-radius: $border-radius-md;
+  background-color: $support-100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,46 @@
+.summary-extract-panels-row {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  row-gap: $spacing-8;
+}
+
+.summary-extract-panels {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  column-gap: $spacing-18;
+}
+
+.summary-extract-panel-row {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  column-gap: $spacing-18;
+}
+
+.summary-extract-panel {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  row-gap: $spacing-8;
+}
+
+.summary-extract-panel-title {
+  display: flex;
+  flex-direction: column;
+  row-gap: $spacing-1;
+}
+
+.summary-extract-panel-content {
+  display: flex;
+  flex-direction: row;
+  column-gap: $spacing-8;
+}
+
+.summary-extract-panel-content-column {
+  display: flex;
+  flex-direction: column;
+  row-gap: $spacing-8;
+  flex: 1;
+}

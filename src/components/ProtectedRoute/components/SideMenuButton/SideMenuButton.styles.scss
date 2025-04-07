@@ -1,0 +1,9 @@
+#side-menu-container > .active {
+  background-color: $primary-100;
+}
+
+.side-menu-button-text {
+  padding-left: $spacing-4;
+  white-space: nowrap;
+  overflow: hidden;
+}

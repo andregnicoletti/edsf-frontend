@@ -1,0 +1,24 @@
+.select-checkbox-float-container {
+  padding: $spacing-4;
+  border-radius: $border-radius-sm;
+  background-color: $neutral-50;
+  min-width: 18rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: $spacing-4;
+}
+
+.select-checkbox-items-list {
+  display: flex;
+  flex-direction: column;
+  max-height: $spacing-72;
+  overflow-y: scroll;
+}
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+}

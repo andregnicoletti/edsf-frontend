@@ -1,0 +1,33 @@
+.contactus-landing-section {
+  width: 100%;
+  background-color: var(--black-100);
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 0rem;
+  border-bottom: 1px solid var(--blue-200);
+}
+
+.title {
+  padding-bottom: 2rem;
+}
+
+.contactus-landing-content {
+  width: 25rem;
+  row-gap: 1.5rem;
+}
+
+.contactus-form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+}
+
+@media only screen and (max-width: 750px) {
+  .contactus-landing-section {
+    padding: 4rem 1.5rem;
+  }
+
+  .contactus-landing-content {
+    width: 100%;
+  }
+}

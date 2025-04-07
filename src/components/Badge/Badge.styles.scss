@@ -1,0 +1,83 @@
+.badge-container {
+  display: flex;
+  flex-direction: row;
+  column-gap: 0.5rem;
+  width: fit-content;
+  align-items: center;
+  border-width: 1px;
+}
+
+.badge-text-container {
+  display: flex;
+  flex: 1;
+}
+
+.badge-text {
+  overflow-wrap: anywhere;
+  text-align: center;
+}
+
+.badge-text-generating-pdf {
+  overflow-wrap: anywhere;
+  text-align: center;
+  margin-top: -0.7rem;
+  padding-top: 0.35rem;
+  padding-bottom: 0.35rem;
+}
+
+.badge-container-small {
+  padding: 0.0625rem $spacing-3;
+}
+
+.badge-container-medium {
+  padding: 0.0625rem $spacing-4;
+}
+
+.badge-container-large {
+  padding: $spacing-4 $spacing-4;
+}
+
+.background-transparent {
+  background-color: transparent;
+}
+
+.badge-square {
+  border-radius: $border-radius-xs;
+}
+
+.badge-rounded {
+  border-radius: 50vh;
+}
+
+.badge-border-neutral {
+  border-color: $neutral-200;
+}
+
+.background-neutral {
+  background-color: $neutral-200;
+  border-color: $neutral-200;
+}
+
+.background-primary {
+  background-color: $primary-100;
+  border-color: $primary-100;
+}
+
+.background-support {
+  background-color: $support-50;
+  border-color: $support-50;
+}
+
+.background-indicator-info {
+  background-color: $indicator-info-50;
+  border-color: $indicator-info-50;
+}
+
+.background-indicator-danger {
+  background-color: $indicator-danger-50;
+  border-color: $indicator-danger-50;
+}
+
+.badge-icon-button {
+  display: flex;
+}

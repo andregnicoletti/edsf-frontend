@@ -1,0 +1,20 @@
+.data-panel-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.data-panel-container-chart {
+  height: 28rem;
+}
+
+.data-panel-container-table {
+  height: fit-content;
+}
+
+.data-panel-empty-icon {
+  width: 14rem;
+  margin-bottom: $spacing-8;
+}

@@ -1,0 +1,9 @@
+.summary-extract-filters-container {
+  display: flex;
+  column-gap: $spacing-4;
+  row-gap: $spacing-8;
+  flex-direction: row;
+  margin-top: $spacing-8;
+  margin-bottom: $spacing-8;
+  flex-wrap: wrap;
+}

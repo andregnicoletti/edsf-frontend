@@ -1,0 +1,13 @@
+services:
+  edsf-frontend:
+    image: edsf-frontend
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    restart: always
+    ports:
+      - "8080:80"
+    volumes:
+      - .:/app
+      - /app/node_modules
+      - .env:/usr/share/nginx/html/.env

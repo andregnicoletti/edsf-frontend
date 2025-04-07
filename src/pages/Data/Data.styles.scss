@@ -1,0 +1,33 @@
+.data-title {
+  color: $neutral-800;
+}
+
+.data-title-container {
+  flex-direction: row;
+  margin-top: $spacing-12;
+  margin-bottom: $spacing-6;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.data-title-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: $spacing-4;
+}
+
+.data-content {
+  flex-direction: column;
+  row-gap: $spacing-8;
+}
+
+.data-cell-text-danger {
+  color: $indicator-danger-300;
+}
+
+.data-panel-content {
+  padding-top: $spacing-8;
+  flex-direction: column;
+  row-gap: $spacing-8;
+}

@@ -1,0 +1,35 @@
+.custom-buttom {
+  max-width: fit-content;
+  height: 2.5rem;
+  padding: 0 1rem;
+  background-color: var(--yellow-300);
+  color: var(--black-600);
+  font-size: var(--font-size-medium);
+  font-weight: 700;
+  line-height: 1rem;
+  border: 0;
+  border-radius: 100vh;
+}
+
+.button-secondary {
+  background-color: var(--black-800);
+  color: var(--black-100);
+  font-weight: 400;
+}
+
+.button-square {
+  border-radius: var(--border-radius-200);
+}
+
+.custom-buttom:hover {
+  background-color: var(--yellow-500);
+}
+
+.button-secondary:hover {
+  background-color: var(--black-900);
+}
+
+.fill {
+  max-width: 100%;
+  width: 100%;
+}

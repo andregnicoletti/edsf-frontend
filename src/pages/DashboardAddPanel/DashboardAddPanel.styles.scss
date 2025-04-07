@@ -1,0 +1,40 @@
+.dashboard-add-panel-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  row-gap: $spacing-6;
+}
+
+.dashboard-add-panel-content {
+  display: flex;
+  flex-direction: row;
+  row-gap: $spacing-8;
+  column-gap: $spacing-8;
+}
+
+.dashboard-add-panel-item {
+  display: flex;
+  padding: $spacing-12;
+  flex-direction: column;
+  row-gap: $spacing-6;
+  width: 16.625rem;
+  align-items: center;
+  justify-content: center;
+  background-color: $neutral-50;
+  border-radius: $border-radius-md;
+  box-shadow: $elevation-100;
+}
+
+.dashboard-add-panel-icon {
+  width: 6.25rem;
+}
+
+.dashboard-add-panel-icon-container {
+  width: 9.375rem;
+  height: 5.9375rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $support-500;
+  border-radius: $border-radius-md;
+}

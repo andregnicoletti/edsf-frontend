@@ -1,0 +1,22 @@
+.input-drawer-producers-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  width: 73vw;
+  padding: $spacing-12;
+  row-gap: $spacing-8;
+  background-color: $neutral-50;
+}
+
+.input-drawer-producers-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  column-gap: $spacing-4;
+}
+
+.input-drawer-select-icon {
+  padding-left: $spacing-8;
+  padding-right: $spacing-8;
+  cursor: pointer;
+}

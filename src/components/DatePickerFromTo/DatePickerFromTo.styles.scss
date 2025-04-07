@@ -1,0 +1,14 @@
+.load-history-floating-data-menu {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  padding: $spacing-8;
+  border-radius: $spacing-4;
+  row-gap: $spacing-8;
+}
+
+.load-history-floating-data-buttons {
+  display: flex;
+  flex-direction: row;
+  column-gap: $spacing-5;
+}

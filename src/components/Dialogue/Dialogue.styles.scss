@@ -1,0 +1,17 @@
+.dialogue-container {
+  width: 27rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: $spacing-4;
+  background-color: $neutral-50;
+  border-radius: $border-radius-sm;
+  padding: $spacing-10;
+}
+
+.dialogue-buttons-container {
+  display: flex;
+  flex-direction: reverse;
+  justify-content: flex-end;
+  column-gap: $spacing-4;
+  margin-top: $spacing-4;
+}

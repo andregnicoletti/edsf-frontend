@@ -1,0 +1,48 @@
+#login-page-container {
+  height: 100vh;
+  width: 100%;
+}
+
+#login-page-body {
+  width: 100%;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--yellow-500);
+  background-size: cover;
+}
+
+.login-title {
+  margin-bottom: $spacing-12;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+  flex: 1;
+}
+
+.login-card-container {
+  width: 24rem;
+  row-gap: $spacing-8;
+  padding: $spacing-12;
+  border-radius: $border-radius-sm;
+  background-color: $neutral-50;
+}
+
+.login-card-content {
+}
+
+.login-input {
+  display: flex;
+  flex-direction: column;
+  row-gap: $spacing-2;
+}
+
+.version {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 1rem;
+}

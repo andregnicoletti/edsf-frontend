@@ -1,0 +1,28 @@
+.pdf-page-header-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-top: $spacing-16;
+  padding-bottom: $spacing-8;
+  background-color: $neutral-100;
+  padding-left: 2.2rem;
+  padding-right: 2.2rem;
+}
+
+.pdf-page-header-content {
+  display: flex;
+  flex-direction: column;
+
+  &:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: $spacing-8;
+    background-color: rgb(43, 201, 43);
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+}

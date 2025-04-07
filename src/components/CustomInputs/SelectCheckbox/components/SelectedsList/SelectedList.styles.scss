@@ -1,0 +1,7 @@
+.select-checkbox-selecteds-list {
+  display: flex;
+  flex-direction: column;
+  max-height: $spacing-70;
+  overflow-y: scroll;
+  background-color: $primary-100;
+}

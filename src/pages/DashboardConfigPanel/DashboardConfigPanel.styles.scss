@@ -1,0 +1,40 @@
+.dashboard-config-panel-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  row-gap: $spacing-6;
+}
+
+.panel-configuration-title-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: $spacing-4;
+}
+
+.panel-configuration-content {
+  display: flex;
+  flex-direction: row;
+  column-gap: $spacing-8;
+}
+
+.panel-configuration-right-column {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  row-gap: $spacing-8;
+}
+
+.panel-configuration-left-column {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+  row-gap: $spacing-8;
+}
+
+.panel-configuration-card {
+  display: flex;
+  flex-direction: column;
+  row-gap: $spacing-11;
+  padding: $spacing-12;
+}

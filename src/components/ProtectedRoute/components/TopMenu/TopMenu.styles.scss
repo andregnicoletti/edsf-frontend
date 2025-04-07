@@ -1,0 +1,42 @@
+.top-menu-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: $spacing-8;
+  background-color: $neutral-800;
+}
+
+.top-menu-container-right-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: $spacing-4;
+}
+
+.top-menu-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: $spacing-20;
+  width: $spacing-20;
+  border-width: 1px;
+  border-color: $neutral-600;
+  border-radius: $border-radius-lg;
+}
+
+.top-menu-button:hover {
+  background-color: $neutral-700;
+}
+
+.top-menu-email-button {
+  display: flex;
+  padding: $spacing-3 $spacing-8;
+  border-radius: 100vh;
+  background-color: $support-100;
+}
+
+.top-menu-email-button:hover {
+  background-color: $support-200;
+}

@@ -1,0 +1,38 @@
+/* div,
+header,
+footer,
+section {
+  display: flex;
+} */
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 1150px) {
+  html {
+    font-size: calc(0.2rem + 1.34vh);
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  html {
+    font-size: calc(0.3rem + 1.43vh);
+  }
+}

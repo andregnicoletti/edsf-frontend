@@ -1,0 +1,32 @@
+#side-menu-container {
+  flex-direction: column;
+  padding: $spacing-3;
+  align-items: center;
+  width: fit-content;
+  justify-content: flex-start;
+  background-color: $neutral-50;
+  border-radius: $border-radius-md;
+}
+
+#side-menu-container > button {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: $spacing-18;
+  border-radius: $border-radius-xs;
+  padding-left: $spacing-6;
+  padding-right: $spacing-6;
+}
+
+#side-menu-container > button:hover {
+  background-color: $primary-50;
+}
+
+#side-menu-version {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: flex-end;
+}
